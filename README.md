@@ -4,3 +4,5 @@ This Shiny App is for visualizing Singapore Population and Population Structure 
 
 The dataset is from Singapore Department of Statistics, last updated on 26 Dec 2014.
 Data Source: http://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=1347&exportType=csv
+
+The project is on Shiny User Showcase page (Shiny Apps with popular appeal): https://ychua9.shinyapps.io/Developing_Data_Products.
