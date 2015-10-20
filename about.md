@@ -1,4 +1,4 @@
-## Singapore Population Statistics  
+## Singapore Population Statistics
 
 This Shiny App is for visualizing Singapore Population and Population Structure from year 1960 to 2014. The total number of population parameters used in the statistics is 18.
 

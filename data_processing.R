@@ -67,7 +67,6 @@ dataByPopVar <- function(dt, minYear, maxYear, popVariables) {
   return(result)
 }
 
-
 #' Filter dataset by population variables & year (numeric dataset)
 #' 
 #' @param dt data.table
@@ -84,49 +83,6 @@ dataByPopVarPercent <- function(dt, minYear, maxYear, popVariables) {
   result <- apply(select_dt, 1, function(x) as.numeric(x))
   return(result)
 }
-
-# #' Aggregate dataset by year to get total count of average
-# #' number of pieces
-# #' 
-# #' @param dt data.table
-# #' @param minYear
-# #' @param maxYear
-# #' @param minPiece
-# #' @param maxPiece
-# #' @param themes
-# #' @return data.table 2 columns
-# #'
-# groupByPieceAvg <- function(dt,  minYear, maxYear, minPiece,
-#                             maxPiece, themes) {
-#   dt <- groupByYearPiece(dt, minYear, maxYear, minPiece,
-#                          maxPiece, themes)
-#   result <- dt %>% 
-#     group_by(year) %>% 
-#     summarise(avg = mean(pieces)) %>%
-#     arrange(year)
-#   return(result)      
-# }
-# 
-# #' Average pieces for each theme
-# #' 
-# #' @param dt data.table
-# #' @param minYear
-# #' @param maxYear
-# #' @param minPiece
-# #' @param maxPiece
-# #' @param themes
-# #' @return data.table 2 columns
-# #'
-# groupByPieceThemeAvg <- function(dt,  minYear, maxYear, minPiece,
-#                                  maxPiece, themes) {
-#   dt <- groupByYearPiece(dt, minYear, maxYear, minPiece,
-#                          maxPiece, themes)
-#   result <- dt %>% 
-#     group_by(theme) %>%
-#     summarise(avgPieces = mean(pieces)) %>%
-#     arrange(theme)
-#   return(result)
-# }
 
 #' Plot total population (number)
 #' 

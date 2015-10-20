@@ -1,4 +1,4 @@
-# Developing_Data_Products - Singapore Population Visualization
+# Developing Data Products Project - Singapore Population Visualization
 
 This Shiny App is for visualizing Singapore Population and Population Structure from year 1960 to 2014. The total number of population parameters used in the statistics is 18.
 
